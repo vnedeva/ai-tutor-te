@@ -77,7 +77,7 @@ SYSTEM_PROMPT = """
 # --- ЗАРЕЖДАНЕ НА МОДЕЛА ---
 # Използваме flash модела за бързина
 model = genai.GenerativeModel(
-    model_name="gemini-1.5-flash", 
+    model_name="gemini-1.5-flash-latest", 
     system_instruction=SYSTEM_PROMPT
 )
 
